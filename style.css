@@ -1,0 +1,28 @@
+nav ul{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding: 30px;
+    
+
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: brown;
+    font-size: 1.25rem;
+}
+nav ul:hover{
+    background-color: skyblue;
+    
+}
+footer{
+    text-align: center;
+}
+figure img{
+    width: 300px;
+    height: 200px;
+    
+}
