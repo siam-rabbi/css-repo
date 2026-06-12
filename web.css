@@ -19,6 +19,28 @@
    border-radius: 5px;
    border: none;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #474747;
+}
+.section-descrip{
+    font-size: 18px;
+    color: #181818;
+}
+.second-bg{
+    background-color: #fff8f3;
+}
+/*header*/
+
+.header{
+    background-image: url("../images/rain-bow.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+}
+
+
 /* nav styles */
 nav{
     display: flex;
@@ -61,15 +83,37 @@ nav li a{
    font-weight: 10px;
 }
 .banner-picture{
-    width: 580px;
+    width: 320px;
 }
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 35px 0 200px;
+    margin: 0 203px 0 200px;
 }
 .banner-content{
     max-width: 580px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin: 130px;
+
+
+    
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-descrip{
+    font-weight: 600;
 }
 
 
